@@ -41,4 +41,4 @@ Computing time
 ------------
 The above function will take considerably longer to run as the population size N increases. For example, the above code took about 3 minutes and 33 seconds to run. For any population size above 100, we recommend running the function in parallel. Specifically, one can calculate the required sample size (n) without adjustment for sensitivity and specifcity using the `lqas_hgm` function here or the many online tools available. This will provide a lower bound for the search space for the sample size n. Then, the function can be run in parallel for small increments of the sample size n and decision rule d. 
 
-We are currently creating an R package that will reduce computing time by conducting a grid search. Please stay tuned. 
+We are currently creating an R package that will reduce computing time by conducting a grid search. 

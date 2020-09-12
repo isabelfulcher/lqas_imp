@@ -5,7 +5,7 @@ This repository provides code that accompanies the *Adapting Lot Quality Assuran
 
 Setup
 ------------
-The goal is to classify an area as “high” or “low” on some trait of interest. In our paper, we were interested in classifying Haitian hospitals as having high or low COVID-19 antibody prevalence among healthcare workers. In the traditional form of LQAS, the sample size, _n_, and decision rule, _d_, are determined by the population size, _N_, and four parameters defined by users based on the specific context and goals. 
+The goal is to classify an area as “high” or “low” on some trait of interest. In our paper, we were interested in classifying hospitals as having high or low COVID-19 antibody prevalence among healthcare workers in Haiti. In the traditional form of LQAS, the sample size, _n_, and decision rule, _d_, are determined by the population size, _N_, and four parameters defined by users based on the specific context and goals. 
 
 The four parameters are: 
 + *p.upper* the upper prevalence threshold by which an area is classified as high
